@@ -6,8 +6,8 @@ import os
 # Set up the SMTP server
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
-smtp_username = "Superhero8871@gmail.com"
-smtp_password = "rsnsvxmdbioivlqc"
+smtp_username = "Email"
+smtp_password = "Enter Api Key"
 
 # Create a message object and set the message content
 
