@@ -1,4 +1,4 @@
-name: Python_Script.py
+name: run Python_Script.py
 
 on:
   schedule:
