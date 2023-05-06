@@ -11,8 +11,8 @@ print(api_key)
 # Set up the SMTP server
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = email
-smtp_password = api_key
+smtp_username = 'superhero8871@gmail.com'
+smtp_password = 'rsnsvxmdbioivlqc'
 # Create a message object and set the message content
 
 my_array = [
