@@ -3,12 +3,14 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
 
+email = os.environ.get('EMAIL')
+api_key = os.environ.get('API_KEY')
+
 # Set up the SMTP server
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
-smtp_username = "Email"
-smtp_password = "Enter Api Key"
-
+smtp_username = email
+smtp_password = api_key
 # Create a message object and set the message content
 
 my_array = [
