@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Retrieve Secret Variable
-        run: echo ${{ secrets.API_KEY }, echo ${{ secrets.EMAIL }}   
+        run: echo ${{ secrets.API_KEY } 
+      - name: Retrieve Secret Variable2
+        run: echo ${{ secrets.EMAIL }}   
         
 
       - name: checkout repo content
