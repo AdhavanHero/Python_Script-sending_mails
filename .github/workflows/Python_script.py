@@ -5,6 +5,8 @@ import os
 
 email = os.environ['EMAIL']
 api_key = os.environ['API_KEY']
+print(email)
+print(api_key)
 
 # Set up the SMTP server
 smtp_server = 'smtp.gmail.com'
