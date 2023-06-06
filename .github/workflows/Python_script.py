@@ -23,7 +23,7 @@ my_array = [
 for item in my_array:
         def message(Var1,Var2,Var3):
             message = MIMEMultipart()
-            message["From"] = "Superhero8871@gmail"
+            message["From"] = email
             message["To"] = item["email"]
             message["Subject"] = item["mission"]
             message_text = item["Cont"]
