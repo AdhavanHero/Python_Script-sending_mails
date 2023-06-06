@@ -3,8 +3,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
 
-email = os.environ['EMAIL']
-api_key = os.environ['API_KEY']
+email = os.environ('EMAIL')
+api_key = os.environ('API_KEY')
 print(email)
 print(api_key)
 
