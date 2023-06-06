@@ -5,8 +5,6 @@ import os
 
 email = os.env.get('EMAIL')
 api_key = os.env.get('API_KEY')
-print(email)
-print(api_key)
 
 
 # Set up the SMTP server
