@@ -36,4 +36,3 @@ my_array = [
 for item in my_array:
     message(item["mission"], item["email"], item["Cont"])
 
-print('Array printed!')
