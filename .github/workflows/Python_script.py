@@ -10,8 +10,8 @@ api_key = os.env.get('API_KEY')
 # Set up the SMTP server
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = 'superhero8871@gmail.com'
-smtp_password = 'nythowumurzjlvoq'
+smtp_username = email
+smtp_password = api_key
 # Create a message object and set the message content
 
 my_array = [
