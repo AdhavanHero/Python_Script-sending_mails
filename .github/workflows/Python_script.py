@@ -23,7 +23,7 @@ def message(Var1, Var2, Var3):
     smtp_client = smtplib.SMTP(smtp_server, smtp_port)
     smtp_client.ehlo()
     smtp_client.starttls()
-    smtp_client.login(email,api_key)
+    smtp_client.login(smtp_username,smtp_password)
     smtp_client.sendmail(message["From"], message["To"], message.as_string())
     smtp_client.quit() 
 
