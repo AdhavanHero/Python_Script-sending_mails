@@ -3,8 +3,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import os
 
-email = os.environ.get('EMAIL')
-api_key = os.environ.get('API_KEY')
+api_key = os.environ.get('Api_key')
+email = os.environ.get('Email')
+
+
 
 # Set up the SMTP server
 smtp_server = 'smtp.gmail.com'
