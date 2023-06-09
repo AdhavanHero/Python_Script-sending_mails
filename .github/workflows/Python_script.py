@@ -6,9 +6,6 @@ import os
 api_key = os.environ.get('Api_key')
 email = os.environ.get('Email')
 
-print(api_key)
-Print(email)
-
 # Set up the SMTP server
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
