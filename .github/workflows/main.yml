@@ -2,9 +2,7 @@ name: run Python_Script.py
 on:
   schedule:
     - cron: '* * * * *' 
-env:
-            Api_key: ${{ secrets.API_KEY }}
-            Email: ${{ secrets.EMAIL }}    
+ 
 
 jobs:
   build:
@@ -25,7 +23,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute py script 
-        
+        env:
+            Api_key: ${{ secrets.API_KEY }}
+            Email: ${{ secrets.EMAIL }}   
         run: python Python_Script.py
 
       - name: commit files
