@@ -15,7 +15,7 @@ smtp_port = 587
 smtp_username = email
 smtp_password = api_key
 
-def message(Var1, Var2, Var3):
+def messages(Var1, Var2, Var3):
     message = MIMEMultipart()
     message["From"] = email
     message["To"] = Var2
@@ -37,7 +37,7 @@ my_array = [
 ]
 
 for item in my_array:
-    message(item["mission"], item["email"], item["Cont"])
+    messages(item["mission"], item["email"], item["Cont"])
     
 print('Array printed!')    
 
